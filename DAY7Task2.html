@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY 6 TASK 2</title>
+    <style>
+        .container{
+            background-color: rgb(45, 44, 44);
+            width: 50%;
+            color: white;
+        }
+        div{
+            display: grid;
+            padding: 20px;
+            gap: 10px 10px;
+            border: 2px solid black;
+            grid-template-rows: auto auto auto auto;
+            grid-template-columns: auto auto auto;
+        }
+        .a{
+            grid-column: 1/4;
+        }
+        .b{
+            grid-row: 2/4;
+        }
+        .c{
+            grid-column: 2/4;
+        }
+        .d{
+            grid-column: 1/4;
+        }
+
+    </style>
+</head>
+<body><center>
+    <h1>DAY 6 TASK 2</h1>
+    <div class="container">
+        <div class="a" style="background-color: blueviolet;">header</div>
+        <div class="b" style="background-color: aqua;">sidebar</div>
+        <div class="c" style="background-color: rgb(9, 32, 181);">content-1</div>
+        <div style="background-color: rgb(45, 45, 214);">content-2</div>
+        <div style="background-color: rgb(5, 5, 238);">content-3</div>
+        <div class="d" style="background-color: blueviolet;">footer</div>
+    </div>
+</center>
+</body>
+</html>
